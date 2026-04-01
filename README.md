@@ -7,7 +7,6 @@ This add-on lets you use your Home Assistant server as a client for
 
 # Configuration
 
-The default host IP is `127.0.0.1` (i.e. the computer running Home Assistant),
-and the default port is `1704`. You can change this in the configuration tab.
+The default host is `tcp://127.0.0.1:1704` (i.e. the computer running Home Assistant). You can change this in the configuration tab.
 
 You can also optionally set the `hostID`.

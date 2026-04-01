@@ -11,9 +11,7 @@ arch:
   - armv7
   - i386
 options:
-  host: "127.0.0.1"
-  port: 1704
+  host: "tcp://127.0.0.1:1704"
 schema:
   host: str?
-  port: port?
   hostID: str?

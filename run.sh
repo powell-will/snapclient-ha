@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 
 
-flags_available=("host" "port" "hostID")
+flags_available=("host" "hostID")
 flags=()
 
 for flag in ${flags_available[@]}; do
